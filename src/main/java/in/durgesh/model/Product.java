@@ -11,7 +11,7 @@ public class Product {
 	private String name;
 	private String brand;
 	private String madein;
-	private float price;
+	private Double price;
 
 	public Product() {
 	}
@@ -50,12 +50,14 @@ public class Product {
 		this.madein = madein;
 	}
 
-	public float getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrice(float price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
+
+	
 
 }
